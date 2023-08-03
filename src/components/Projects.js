@@ -98,7 +98,7 @@ function Projects() {
 		  <ul className="projects-sublist">
 		    <li>
 			  <p>Visualizing functions of complex variables using math.js and Plotly.js; hosted with Vercel</p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="github.com/rolinmb/complex-plots">repo here</a>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/complex-plots">repo here</a>
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://complex-plots.vercel.app/">visit 'complex-plots'</a>
 			  <br />

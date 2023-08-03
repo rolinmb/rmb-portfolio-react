@@ -16,8 +16,20 @@
 }
   
 #main-nav h1 {
+  font-size: 30px;
   padding-left: 37px;
   text-align: center;
+}
+
+#main-nav a {
+  transition: background-color 0.325s ease;
+}
+
+#main-nav a:hover,
+#main-nav a:focus {
+  background: linear-gradient(90deg, #2a2dbd, transparent) #5973ca;
+	color: white;
+	border-radius: 3.175px;
 }
   
 @media (max-width: 786px) {
