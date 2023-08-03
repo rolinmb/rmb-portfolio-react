@@ -1,0 +1,40 @@
+#main-nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+  }
+
+#main-nav ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
+}
+
+#main-nav li {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+  
+#main-nav h1 {
+  padding-left: 37px;
+  text-align: center;
+}
+  
+@media (max-width: 786px) {
+  #main-nav {
+    grid-template-columns: 100%;
+  }
+
+  #main-nav ul {
+    grid-template-columns: 1fr;
+  }
+
+  #main-nav li {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  #main-nav h1 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+#main-footer {
+    display: grid;
+    text-align: center;
+  }
+  
+#footer-links {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-links li {
+  padding: 8px;
+}
+  
+@media(max-width: 768px) {
+  #footer-links {
+    grid-template-columns: 1fr;
+  }
+  
+  #footer-links li {
+    text-align: center;
+  }
+}
