@@ -37,7 +37,7 @@ function Projects() {
 		  <h2>Web Development</h2>
 		  <ul className="projects-sublist">
 		    <li>
-			  <p>This website! A single-page portfolio hosted with Google Firebase</p>
+			  <p>This website! A single-page portfolio hosted with Google Firebase, made with react.js</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/rmb-portfolio">repo here</a>
 			</li>
 			<li>
@@ -68,9 +68,16 @@ function Projects() {
 			  &nbsp;- my source code is not live, check out Spotify's repo at <a target='_blank' rel='noopener noreferrer' href="https://github.com/spotify/pedalboard">github.com/spotify/pedalboard</a>
 			</li>
             <li>
-              <p>In-Browser single-oscillator synthesizer using pure TypeScript and JavaScript DOM AudioContext</p>
+              <p>In-Browser single-oscillator synthesizer using TypeScript and the JavaScript Web Audio API (hosted with Vercel)</p>
               &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/web-synth'>repo here</a>
-            </li>
+			  <br />
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://rmb-synth.vercel.app'>try the single-oscillator synth</a>
+			  <br />
+			  <p>In-Browser multi-synth using TypeScript and the JavaScript Web Audio API (hosted with Vercel)</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/web-multi-synth">repo here</a>
+			  <br />
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://web-multi-synth.vercel.app'>try the multi-oscillator synth</a>
+			</li>
 		  </ul>
 		</li>
 		<li>
