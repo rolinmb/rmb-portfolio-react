@@ -92,11 +92,6 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/cool-pngs">repo here</a>
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://cool-pngs.vercel.app">visit 'cool-pngs'</a>
-			  <br />
-			  <p>'endless-pngs' .png generators (with vanilla javascript routing) via HTML5 Canvas, math.js, and Vercel</p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/endless-pngs">repo here</a>
-			  <br />
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://endless-pngs.vercel.app">visit 'endless-pngs'</a>
 		    </li>
 		  </ul>
 	    </li>
