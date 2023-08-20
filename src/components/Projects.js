@@ -84,10 +84,6 @@ function Projects() {
 		  <h2>Image Processing</h2>
 		  <ul className="projects-sublist">
 		    <li>
-			  <p>Creating image effects using Go standard libraries and Python + pillow library</p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/img-process">repo here</a>
-		    </li>
-		    <li>
 		      <p>'cool-pngs' .png generator site using HTML5 Canvas, javascript, and Vercel</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/cool-pngs">repo here</a>
 			  <br />
