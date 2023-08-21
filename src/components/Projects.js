@@ -47,7 +47,7 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://redetach-music.web.app">visit re detach music</a>
 			</li>
 			<li>
-			  <p>PERN Stack (postgresql, express.js, react.js, node.js) CRM-like Application with Server-Side Authentication</p>
+			  <p>PERN Stack (postgresql, express.js, react.js, node.js) Full Stack Application with Server-Side Authentication via postgres</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/pern-client">client repo here</a>
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://github.com/rolinmb/pern-server">server repo here</a>
