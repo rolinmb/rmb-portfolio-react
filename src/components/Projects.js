@@ -95,6 +95,10 @@ function Projects() {
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href="https://cool-pngs.vercel.app">visit 'cool-pngs'</a>
 		    </li>
+			<li>
+			  <p>'png-playground' .png generator and editor; created with react.js, and authentication + hosting using Google Firebase </p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://png-playground.web.app'>visit 'png-playground'</a>
+			</li>
 		  </ul>
 	    </li>
         <li>
