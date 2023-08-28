@@ -99,6 +99,10 @@ function Projects() {
 			  <p>'png-playground' .png generator and editor; created with react.js, and authentication + hosting using Google Firebase </p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://png-playground.web.app'>visit 'png-playground'</a>
 			</li>
+			<li>
+			  <p>generating .png images in go and pythom; some ideas came from ChatGPT</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/img-process'>repo here</a>
+			</li>
 		  </ul>
 	    </li>
         <li>
