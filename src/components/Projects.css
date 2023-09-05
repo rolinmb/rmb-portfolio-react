@@ -1,4 +1,54 @@
-#projects-page p {
+#projects-page {
   text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-list li {
+  margin: 20px 0;
+}
+
+.projects-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.projects-sublist {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-sublist li {
+  margin: 10px 0;
+}
+
+.projects-sublist p {
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #projects-page {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .projects-list li {
+    margin: 10px 0;
+  }
+
+  .projects-list h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
 }
