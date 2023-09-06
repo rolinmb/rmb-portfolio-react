@@ -49,7 +49,7 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://redetach-music.web.app'>visit re detach music</a>
 			</li>
 			<li>
-			  <p>PERN Stack (postgresql, express.js, react.js, node.js) Full Stack Application with Server-Side Authentication via postgres</p>
+			  <p>PERN Stack (postgresql, express.js, react.js, node.js) / Full Stack Application with Server-Side Authentication using postgres</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/pern-client'>client repo here</a>
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/pern-server'>server repo here</a>
@@ -72,25 +72,29 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/vst-dev/tree/main/juce'>repo here</a>
 			</li>
 			<li>
-			  <p>Using Spotify's pedalboard library for Python to create FX chains/make audio clips for other uses;</p>
+			  <p>Using Spotify's pedalboard library for Python to create FX chains/make audio clips for other uses</p>
 			  My source code is not live, check out Spotify's repo at <a target='_blank' rel='noopener noreferrer' href='https://github.com/spotify/pedalboard'>github.com/spotify/pedalboard</a>
 			</li>
 			<li>
-			  <p>GUI Application to use Spotify's pedalboard python library; made with python tkinter</p>
+			  <p>tkinter GUI Application to use Spotify's Pedalboard library (Python)</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/pedalboard-gui'>repo here</a>
 			  <br /><br />
 			  <img id='pedalboard-gui-preview' src={pedalboard_gui_preview} alt='' />
 			</li>
             <li>
-              <p>In-Browser single-oscillator synthesizer using TypeScript and the JavaScript Web Audio API (hosted with Vercel)</p>
+              <p>In-Browser single-oscillator synthesizer (TypeScript) and the JavaScript Web Audio API and hosted with Vercel</p>
               &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/web-synth'>repo here</a>
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://rmb-synth.vercel.app'>try the single-oscillator synth</a>
 			  <br />
-			  <p>In-Browser multi-synth using TypeScript and the JavaScript Web Audio API (hosted with Vercel)</p>
+			  <p>In-Browser multi-synth (TypeScript) and the JavaScript Web Audio API; hosted with Vercel</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/web-multi-synth'>repo here</a>
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://web-multi-synth.vercel.app'>try the multi-oscillator synth</a>
+			</li>
+			<li>
+			  <p>In-Browser Audio FX Editor (TypeScript); Users can upload .mp3 files and then preview the result with FX applied; work in progress / not yet hosted</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/web-audio-fx'>repo here</a>
 			</li>
 		  </ul>
 		</li>
@@ -98,28 +102,32 @@ function Projects() {
 		  <h2>Image Processing</h2>
 		  <ul className="projects-sublist">
 		    <li>
-		      <p>'cool-pngs' .png generator site using HTML5 Canvas, javascript, and Vercel</p>
+		      <p>'cool-pngs' .png generator site using HTML5 Canvas, vanilla JavaScript, and Vercel</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/cool-pngs'>repo here</a>
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://cool-pngs.vercel.app'>visit 'cool-pngs'</a>
 		    </li>
 			<li>
-			  <p>'png-playground' .png generator and editor; created with react.js, and authentication + hosting using Google Firebase </p>
+			  <p>'png-playground' .png generator and editor created with react.js; authentication and hosting using Google Firebase </p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://png-playground.web.app'>visit 'png-playground'</a>
 			</li>
 			<li>
-			  <p>Generating .png images in go and python; some ideas came from ChatGPT</p>
+			  <p>Generating .png images in Go and Python; some ideas came from ChatGPT</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/img-process'>repo here</a>
 			</li>
 			<li>
-			  <p>GUI application via python tkinter to interface with go program to generate new .png files</p>
+			  <p>GUI application via tkinter (Python) to interact with Go and generate new .png files</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/png-tkiner'>repo here</a>
 			  <br /><br />
 			  <img id='png-tkinter-preview' src={png_tkinter_preview} alt='' />
 			</li>
 			<li>
-			  <p>Generating music video visuals by creating .png files in go then combining them to create animations using <a target='_blank' rel='noopener noreferrer' href='https://ffmpeg.org/'>ffmpeg</a></p>
-			  My code is not live as I'm using it to create proprietary videos for other creative projects, such as for <a target='_blank' rel='noopener noreferrer' href='https://redetach-music.web.app/instrumentals'>redetach music</a>
+			  <p>Generating music video visuals by creating .png files in Go, then using <a target='_blank' rel='noopener noreferrer' href='https://ffmpeg.org/'>ffmpeg</a> to combine .pngs to form .gif's or .mp4's</p>
+			  My code is not live; I'm using it to create proprietary videos for other creative projects, such as for <a target='_blank' rel='noopener noreferrer' href='https://redetach-music.web.app/instrumentals'>redetach music</a>
+			</li>
+			<li>
+			  <p>Go HTTP server to generate and respond with .png images created with data input from server POST request body</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/png-server'>repo here</a>
 			</li>
 		  </ul>
 	    </li>
@@ -127,7 +135,7 @@ function Projects() {
 		  <h2>Mathematics</h2>
 		  <ul className="projects-sublist">
 			<li>
-			  <p>Simple neural network to train and test on logic gate truth tables. Inspired by Tsoding Daily's video <a target='_blank' rel='noopener noreferrer' href='https://youtu.be/PGSba51aRYU?feature=shared'>here</a></p>
+			  <p>Simple neural network in C to train and test on logic gate truth tables. Inspired by Tsoding Daily's video <a target='_blank' rel='noopener noreferrer' href='https://youtu.be/PGSba51aRYU?feature=shared'>here</a></p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/logical-nn'>repo here</a>
 			</li>
 		    <li>
@@ -146,7 +154,7 @@ function Projects() {
 		      &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/qsharp'>repo here</a>
 		    </li>
 			<li>
-			  <p>Implementing classes or structs to represent Qubits classically in various programming languages</p>
+			  <p>Implementing classes or structs to represent Qubits classically in several programming languages</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/qubits'>repo here</a>
 			</li>
 		  </ul>
