@@ -26,7 +26,7 @@ function Projects() {
 			  <img id='option-chain-preview' src={option_chain_preview} alt="" style={{ width: '600px', height: '300px' }} />
 			</li>
 			<li>
-			  <p>Equity prediction model; uses python to fetch OHLC data from the AlphaVantage API, then detect features and train/test in go</p>
+			  <p>Equity prediction model; fetch OHLC data from the AlphaVantage API using Python, then detect features and train/test in Go</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/go-ohlc'>repo here</a>
 			  </li>
 			<li>
