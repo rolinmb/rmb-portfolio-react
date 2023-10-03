@@ -3,3 +3,5 @@ Previous repository (single-page scrollable HTML) [here](https://github.com/roli
 Very first repository (even more crude react app) [here](https://github.com/rolinmb/fbase-react) *NO LONGER IN USE*
 
 Visit the single-page app here: [https://rmb-portfolio.web.app/](https://rmb-portfolio.web.app/)
+
+build and run with: node build && firebase deploy

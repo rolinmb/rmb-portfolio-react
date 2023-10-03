@@ -117,13 +117,13 @@ function Projects() {
 			</li>
 			<li>
 			  <p>GUI application via tkinter (Python) to interact with Go and generate new .png files</p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/png-tkiner'>repo here</a>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/png-tkinter'>repo here</a>
 			  <br /><br />
 			  <img id='png-tkinter-preview' src={png_tkinter_preview} alt='' />
 			</li>
 			<li>
-			  <p>Generating music video visuals by creating .png files in Go, then using <a target='_blank' rel='noopener noreferrer' href='https://ffmpeg.org/'>ffmpeg</a> to combine .pngs to form .gif's or .mp4's</p>
-			  My code is not live; I'm using it to create proprietary videos for other creative projects, such as for <a target='_blank' rel='noopener noreferrer' href='https://redetach-music.web.app/instrumentals'>redetach music</a>
+			  <p>Generating music video visuals by using <a target='_blank' rel='noopener noreferrer' href='https://ffmpeg.org/'>ffmpeg</a> to render .mp4 videos from .png images created by a golang script</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/vid-gen'> repo here</a>
 			</li>
 			<li>
 			  <p>Go HTTP server to generate and respond with .png images created with data input from server POST request body</p>
