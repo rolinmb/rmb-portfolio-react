@@ -4,4 +4,4 @@ Very first repository (even more crude react app) [here](https://github.com/roli
 
 Visit the single-page app here: [https://rmb-portfolio.web.app/](https://rmb-portfolio.web.app/)
 
-build and run with: node build && firebase deploy
+build and run with: npm build && firebase deploy
