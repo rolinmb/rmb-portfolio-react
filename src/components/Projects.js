@@ -108,8 +108,8 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://cool-pngs.vercel.app'>visit 'cool-pngs'</a>
 		    </li>
 			<li>
-			  <p>'png-playground' .png generator and editor created with react.js; authentication and hosting using Google Firebase </p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://png-playground.web.app'>visit 'png-playground'</a>
+			  <p>'png-playground' .png generator and editor created with react.js; authentication and hosting using Google Firebase (taken offline) </p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/png-playground'>repo here</a>
 			</li>
 			<li>
 			  <p>Generating .png images in Go and Python; some ideas came from ChatGPT</p>
