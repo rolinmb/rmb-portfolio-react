@@ -138,6 +138,10 @@ function Projects() {
 			  <p>Simple neural network in C to train and test on logic gate truth tables. Inspired by Tsoding Daily's video <a target='_blank' rel='noopener noreferrer' href='https://youtu.be/PGSba51aRYU?feature=shared'>here</a></p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/logical-nn'>repo here</a>
 			</li>
+			<li>
+			  <p>Matrix data structure + matrix math functions in golang</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/go-matrix'>repo here</a>
+			</li>
 		    <li>
 			  <p>Visualizing functions of complex variables using math.js and Plotly.js; hosted with Vercel</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/complex-plots'>repo here</a>
