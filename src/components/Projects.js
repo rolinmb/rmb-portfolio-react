@@ -36,7 +36,7 @@ function Projects() {
 			<li>
 			  <p>3D Equity Option Chain Visualizer by Go Playwright webscraping and GNUplot
 				<br />
-				with a Google Firebase Firestore db to view the results in browser
+				with a Google Firebase Storage bucket to view the results in browser
 			  </p>
 			  private repo; refer to my Python 3D Equity Option Chain Visualizer repo above if interested
 			</li>
