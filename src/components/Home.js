@@ -22,9 +22,9 @@ function Home() {
         <h2>Skills</h2>
         <ul id='skills-list'>
           <li><b><i>Operating Systems: </i></b>Windows, Linux, macOS, chromeOS</li>
-		      <li><b><i>Programming Languages: </i></b>C, C++, C#, Go, HTML/CSS, Java, JavaScript/TypeScript, MATLAB, Python, SQL (SQL Server, Postgres)</li>
-		      <li><b><i>Software Utilities: </i></b>GitHub, Elcipse IDE for Java, Microsoft Office/365, Visual Studio, PowerShell, Bash</li>
-		      <li><b><i>University Coursework: </i></b>Algorithms Analysis, Calculus, Differential Equations, Linear Algebra, Numerical Analysis, Object-Oriented Programming, User Interfaces, Calculus of Complex Numbers</li>
+		      <li><b><i>Programming Languages: </i></b>Go, Python, C, C++, HTML/CSS, JavaScript/TypeScript, Rust, Java, C#, MATLAB, SQL (SQL Server, Postgres)</li>
+		      <li><b><i>Software Utilities: </i></b>GitHub, Microsoft Office/365, Visual Studio, PowerShell, Bash, SSH, Google Firebase, Vercel, Elcipse IDE for Java</li>
+		      <li><b><i>University Coursework: </i></b>Calculus, Differential Equations, Linear Algebra, Theory of Linear Algebra, Analysis of Real Numbers, Numerical Analysis, Algorithms Analysis, Object-Oriented Programming, User Interfaces, Calculus of Complex Numbers</li>
         </ul>
       </div>
       <br />

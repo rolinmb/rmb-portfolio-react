@@ -18,8 +18,8 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/investing/tree/master/backtesting'>repo here</a>
 			</li>
 			<li>
-			  <p>3D Equity Option Chain Visualizer; via webscraping in Python or using the <a target='_blank' rel='noopener noreferrer' href='https://documentation.tradier.com/brokerage-api/markets/get-options-chains'>Tradier API</a></p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/option-chain'>backend repo here</a> (python routines and prototype view in HTML/CSS/JavaScript)
+			  <p>3D Equity Option Chain Visualizer by Python BeautifulSoup webscraping (or using the <a target='_blank' rel='noopener noreferrer' href='https://documentation.tradier.com/brokerage-api/markets/get-options-chains'>Tradier API</a>)</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/option-chain'>backend repo here</a> (Python routines and prototype frontend view in HTML/CSS/JavaScript)
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/option-chain-view'>frontend repo here</a> (main private view using React.js)
 			  <br />
@@ -32,6 +32,13 @@ function Projects() {
 			<li>
 			  <p>Foreign exchange trading bot with Python and the OANDA Trading API</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/oanda-fx-bot'>repo here</a>
+			</li>
+			<li>
+			  <p>3D Equity Option Chain Visualizer by Go Playwright webscraping and GNUplot
+				<br />
+				with a Google Firebase Firestore db to view the results in browser
+			  </p>
+			  private repo; refer to my Python 3D Equity Option Chain Visualizer repo above if interested
 			</li>
 		  </ul>
 		</li>
@@ -57,6 +64,16 @@ function Projects() {
 			<li>
 			  <p><u>Unused</u> webpage redesign for browntaxes.com; includes routing in vanilla javascript</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/brwn'>repo here</a>
+			</li>
+			<li>
+			  <p>
+				WebGL / WebGPU demos in pure JavaScript + WebPack; tested locally by serving with Go HTTP / HTTPS servers
+				<br />
+				(SSH used to generate keys)
+			  </p>
+			  &nbsp;- <a target="_blank" rel="noopener noreferrer" href="https://github.com/rolinmb/go-webgl">WebGL repo here</a>
+			  <br />
+			  &nbsp;- <a target="_blank" rel="noopener noreferrer" href="https://github.com/rolinmb/go-webgpu">WebGPU repo here</a>
 			</li>
 		  </ul>
 		</li>
@@ -93,13 +110,13 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://web-multi-synth.vercel.app'>try the multi-oscillator synth</a>
 			</li>
 			<li>
-			  <p>In-Browser Audio FX Editor (TypeScript); Users can upload .mp3 files and then preview the result with FX applied; work in progress / not yet hosted</p>
+			  <p>In-Browser Audio FX Editor (TypeScript); Users can upload .mp3 files and then preview the result with FX applied; <u>work in progress / not yet hosted</u></p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/web-audio-fx'>repo here</a>
 			</li>
 		  </ul>
 		</li>
 		<li>
-		  <h2>Image Processing</h2>
+		  <h2>Image / Video Processing</h2>
 		  <ul className="projects-sublist">
 		    <li>
 		      <p>'cool-pngs' .png generator site using HTML5 Canvas, vanilla JavaScript, and Vercel</p>
@@ -122,12 +139,16 @@ function Projects() {
 			  <img id='png-tkinter-preview' src={png_tkinter_preview} alt='' />
 			</li>
 			<li>
-			  <p>Generating music video visuals by using <a target='_blank' rel='noopener noreferrer' href='https://ffmpeg.org/'>ffmpeg</a> to render .mp4 videos from .png images created by a golang script</p>
+			  <p>Generating music video visuals by using <a target='_blank' rel='noopener noreferrer' href='https://ffmpeg.org/'>ffmpeg</a> to render .mp4 videos from .png images created by a Go script</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/vid-gen'> repo here</a>
 			</li>
 			<li>
 			  <p>Go HTTP server to generate and respond with .png images created with data input from server POST request body</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/png-server'>repo here</a>
+			</li>
+			<li>
+			  <p>Generating .png images in Rust similarly to how I've been doing in Go</p>
+			  &nbsp;- <a target="_blank" rel="noopener noreferrer" href="https://github.com/rolinmb/rust-png">repo here</a>
 			</li>
 		  </ul>
 	    </li>
@@ -139,7 +160,7 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/logical-nn'>repo here</a>
 			</li>
 			<li>
-			  <p>Matrix data structure + matrix math functions in golang</p>
+			  <p>Matrix data structure + matrix math functions in Go</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/go-matrix'>repo here</a>
 			</li>
 		    <li>
@@ -151,9 +172,10 @@ function Projects() {
 		  	  <img src={complex_plots_preview} alt='' style={{ width: '600px', height: '300px' }} /> 
 			</li>
 			<li>
-			  <p>Benchmarking Microsoft's Q# Qubit simulator compared to a custom Qubit implementation and other Python random number generators.
-			  <br />
-			  More specifically, simulating coinflips and other two-outcome probabilistic events to "see which random is truly the most random" as batch size increases.
+			  <p>
+				Benchmarking Microsoft's Q# Qubit simulator compared to a custom Qubit implementation and other Python random number generators.
+			    <br />
+			    More specifically, simulating coinflips and other two-outcome probabilistic events to "see which random is truly the most random" as batch size increases.
 			  </p>
 		      &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/qsharp'>repo here</a>
 		    </li>

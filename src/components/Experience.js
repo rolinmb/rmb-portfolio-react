@@ -7,6 +7,15 @@ function Experience() {
       <h1>Experience</h1>
       <br />
 	  <ul class="jobs">
+		<li>
+		  <h2>Overnight Pricing Team Associate</h2>
+		  <h3>Mariano's - Lake Zurich, IL</h3>
+		  <p>Sept 2023 - present</p>
+		  <ul class="job-details">
+			<li>Distribute price tags on a weekly basis</li>
+			<li>Assist management and vendors with display requests</li>
+		  </ul>
+		</li>
 	    <li class="job">
 		  <h2>Data Processor</h2>
 		  <h3>Brown Taxes, LLC - Wauconda, IL</h3>
