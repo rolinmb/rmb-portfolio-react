@@ -110,7 +110,11 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://web-multi-synth.vercel.app'>try the multi-oscillator synth</a>
 			</li>
 			<li>
-			  <p>In-Browser Audio FX Editor (TypeScript); Users can upload .mp3 files and then preview the result with FX applied; <u>work in progress / not yet hosted</u></p>
+			  <p>
+				In-Browser Audio FX Editor via the WebAudio API and TypeScript; Users can upload .mp3 files and then preview the result with FX applied;
+				<br />
+				(work in progress / not yet hosted)
+			  </p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/web-audio-fx'>repo here</a>
 			</li>
 		  </ul>
