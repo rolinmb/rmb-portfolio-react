@@ -13,7 +13,7 @@ function Experience() {
 		  <p>Sept 2023 - present</p>
 		  <ul class="job-details">
 			<li>Distribute price tags on a weekly basis</li>
-			<li>Assist management and vendors with display requests</li>
+			<li>Assist management and vendors with display / signage requests</li>
 		  </ul>
 		</li>
 	    <li class="job">
