@@ -4,7 +4,7 @@ import React from 'react';
 function Experience() {
   return (
     <div id='experience-page' className='page-wrap'>
-      <h1>Experience</h1>
+      <h1>Work Experience / History</h1>
       <br />
 	  <ul class="jobs">
 		<li>
@@ -12,8 +12,9 @@ function Experience() {
 		  <h3>Mariano's - Lake Zurich, IL</h3>
 		  <p>Sept 2023 - present</p>
 		  <ul class="job-details">
-			<li>Distribute price tags on a weekly basis</li>
-			<li>Assist management and vendors with display / signage requests</li>
+			<li>Distribute price tags and signs on a weekly basis</li>
+			<li>Assist management and vendors with display or signage requests</li>
+			<li>Use Zebra devices and internal software to conduct tag or sign printing and replacing</li>
 		  </ul>
 		</li>
 	    <li class="job">
@@ -46,7 +47,7 @@ function Experience() {
 		<li class="job">
 		  <h2>Data Anylitics Internships</h2>
 		  <h3>Relia-Source, LLC - Grayslake, IL</h3>
-		  <p>Summer of 2018 and Summer of 2019</p>
+		  <p>Summer 2018 and Summer 2019</p>
 		  <ul class="job-details">
 			<li>Monitored inventory items on company web app; including updating items with discrepancies
 			  and deleting duplicates using our modal of the app</li>
@@ -54,6 +55,50 @@ function Experience() {
 			  Excel spreadsheet which can be uploaded to our item database</li>
 			<li>Calculated and concisely relayed quarterly rebate fee information from an internal database to executive officers and client
 			  financial offices</li>
+		  </ul>
+		</li>
+		<br />
+		<li class="job">
+		  <h2>Tutor</h2>
+		  <h3>Iowa State University - Ames, IA</h3>
+		  <p>Fall 2017 to Spring 2019</p>
+		  <ul class="job-details">
+			<li>Tutored Calculus I, III, as well as Intro to Computer Science (in Java) as taught at Iowa State University</li>
+			<li>Conducted three to five tutoring sessions of five to seven students each week</li>
+			<li>Utilized campus resources to reserve spaces for sessions</li>
+		  </ul>
+		</li>
+		<li class="job">
+		  <h2>Maintenance Staff</h2>
+	      <h3>Barefoot Bay Family Aquatic Center - Mundelein, IL</h3>
+		  <p>Summer 2017</p>
+		  <ul class="job-details">
+			<li>Conducted cleaning responsibilities throughout each shift, as well as park closing duties if working that occasion</li>
+			<li>Test water pH and Chlorine levels at a reguluar schedule across various park locations throughout each shift</li>
+			<li>Utilize park maintenance facilities in order to adjust park water pH and Chlorine levels given the need arise</li>
+			<li>Contact Maintenance Management if a scenario arises beyond my experience or if I had any other questions</li>
+		  </ul>
+		</li>
+		<br />
+		<li class="job">
+		  <h2>Lifeguard</h2>
+		  <h3>Barefoot Bay Family Aquatic Center - Mundelein, IL</h3>
+		  <p>Summer 2016</p>
+		  <ul class="job-details">
+			<li>Became certified in CPR and certified for lifeguarding of public pools</li>
+			<li>Rotate watchpoints throughout the day with fellow lifeguards</li>
+			<li>Utilize training to triage when a swimmer / person on land needs saving / medical assistance</li>
+		  </ul>
+		</li>
+		<br />
+		<li class="job">
+		  <h2>Maintenance Staff</h2>
+		  <h3>Midtown Athletic Club - Palatine, IL</h3>
+		  <p>Summer 2015</p>
+		  <ul class="job-details">
+			<li>Conducted cleaning responsibilities throughout each shift, such as taking out trash or power-washing outdoor paths</li>
+			<li>Reset clay tennis courts with special raking equipment every morning before club open</li>
+			<li>Cleanup out of bounds tennis balls left by club members</li>
 		  </ul>
 		</li>
 	  </ul>
