@@ -23,11 +23,11 @@ function Home() {
         <ul id='skills-list'>
           <li><b><i>Operating Systems / Hardware</i> :: </b>Windows, Linux <i>(Ubuntu, Mint)</i>, macOS, chromeOS, Cyclone 4 FPGA, Zebra Barcode Scanners</li>
 		      <li><b><i>Programming Languages</i> :: </b><br />
-            <i><u>Most Familiar (in order)</u>: </i>Go, Python, JavaScript / TypeScript, HTML, CSS, C++, Java, C 
+            <i><u>Strongest</u>: </i>Go, Python, JavaScript/TypeScript/HTML/CSS, Rust, C++, Java, C 
             <br />
             <i><u>Have Some Experience</u>: </i>C#,  SQL <i>(SQL Server, Postgres)</i>, MATLAB, Verilog
           </li>
-		      <li><b><i>Software Utilities</i> :: </b>GitHub, Microsoft Office / 365, Visual Studio, PowerShell, Bash, SSH, Google Firebase, Vercel, Altera Quartus Prime, Elcipse IDE for Java</li>
+		      <li><b><i>Software Utilities</i> :: </b>GitHub, Microsoft Office / 365, Visual Studio / VS Code, PowerShell, Bash, SSH, HTTPS, Google Firebase, Vercel, Altera Quartus Prime, Elcipse IDE for Java</li>
 		      <li><b><i>University Coursework</i> :: </b>Calculus / Real Analysis, Differential Equations, Linear Algebra, Theory of Linear Algebra, Analysis of Real Numbers, Numerical Analysis, Algorithms Analysis, Object-Oriented Programming, Software Project Management, User Interfaces, Calculus of Complex Numbers, Digital Logic / Boolean Algebra</li>
         </ul>
       </div>

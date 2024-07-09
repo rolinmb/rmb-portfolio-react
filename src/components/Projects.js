@@ -40,6 +40,10 @@ function Projects() {
 			  </p>
 			  private repo; refer to my Python 3D Equity Option Chain Visualizer repo above if interested
 			</li>
+			<li>
+			  <p>Option Charts In Browser using the Polygon.io options API and node.js</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/polygon-view'>repo here</a>
+			</li>
 		  </ul>
 		</li>
 		<li>
@@ -117,6 +121,10 @@ function Projects() {
 			  </p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/web-audio-fx'>repo here</a>
 			</li>
+			<li>
+			  <p>Audio effects only using rust (with the help of some cargo crates)</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/rs-audio'>repo here</a>
+			</li>
 		  </ul>
 		</li>
 		<li>
@@ -133,8 +141,14 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/png-playground'>repo here</a>
 			</li>
 			<li>
-			  <p>Generating .png images in Go and Python; some ideas came from ChatGPT</p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/img-process'>repo here</a>
+			  <p>Generating .png images, animations and video fx in Go/Python/Rust</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/img-process'>img-process repo here</a>
+			  <br/>
+			  &nbsp;- <a target="_blank" rel="noopener noreferrer" href="https://github.com/rolinmb/rust-png">rust-png repo here</a>
+			  <br />
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/vid-gen-go'>vid-gen-go repo here</a>
+			  <br />
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/vid-gen-rs'>vid-gen-rs repo here</a>
 			</li>
 			<li>
 			  <p>GUI application via tkinter (Python) to interact with Go and generate new .png files</p>
@@ -150,30 +164,14 @@ function Projects() {
 			  <p>Go HTTP server to generate and respond with .png images created with data input from server POST request body</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/png-server'>repo here</a>
 			</li>
-			<li>
-			  <p>Generating .png images in Rust similarly to how I've been doing in Go</p>
-			  &nbsp;- <a target="_blank" rel="noopener noreferrer" href="https://github.com/rolinmb/rust-png">repo here</a>
-			</li>
 		  </ul>
 	    </li>
         <li>
 		  <h2>Mathematics</h2>
 		  <ul className="projects-sublist">
 			<li>
-			  <p>Simple neural network in C to train and test on logic gate truth tables. Inspired by Tsoding Daily's video <a target='_blank' rel='noopener noreferrer' href='https://youtu.be/PGSba51aRYU?feature=shared'>here</a></p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/logical-nn'>repo here</a>
-			</li>
-			<li>
-			  <p>Matrix data structure + matrix math functions in Go</p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/go-matrix'>repo here</a>
-			</li>
-		    <li>
-			  <p>Visualizing functions of complex variables using math.js and Plotly.js; hosted with Vercel</p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/complex-plots'>repo here</a>
-			  <br />
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://complex-plots.vercel.app/'>visit 'complex-plots'</a>
-			  <br />
-		  	  <img src={complex_plots_preview} alt='' style={{ width: '600px', height: '300px' }} /> 
+			  <p>Visualizing various quantum mechanical equations to see how they evolve using python</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/quantum-flux'>repo here</a>
 			</li>
 			<li>
 			  <p>
@@ -186,6 +184,22 @@ function Projects() {
 			<li>
 			  <p>Implementing classes or structs to represent Qubits classically in several programming languages</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/qubits'>repo here</a>
+			</li>
+			<li>
+			  <p>Visualizing functions of complex variables using math.js and Plotly.js; hosted with Vercel</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/complex-plots'>repo here</a>
+			  <br />
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://complex-plots.vercel.app/'>visit 'complex-plots'</a>
+			  <br />
+		  	  <img src={complex_plots_preview} alt='' style={{ width: '600px', height: '300px' }} /> 
+			</li>
+			<li>
+			  <p>Simple neural network in C to train and test on logic gate truth tables. Inspired by Tsoding Daily's video <a target='_blank' rel='noopener noreferrer' href='https://youtu.be/PGSba51aRYU?feature=shared'>here</a></p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/logical-nn'>repo here</a>
+			</li>
+			<li>
+			  <p>Matrix data structure + matrix math functions in Go</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/go-matrix'>repo here</a>
 			</li>
 		  </ul>
 	    </li>
