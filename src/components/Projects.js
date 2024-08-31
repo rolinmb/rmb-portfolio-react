@@ -108,7 +108,7 @@ function Projects() {
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://rmb-synth.vercel.app'>try the single-oscillator synth</a>
 			  <br />
-			  <p>In-Browser multi-synth (TypeScript) and the JavaScript Web Audio API; hosted with Vercel</p>
+			  <p>In-Browser multi-oscillator synthesizer written in TypeScript using the Web Audio and Web Midi APIs; hosted with Vercel</p>
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/web-multi-synth'>repo here</a>
 			  <br />
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://web-multi-synth.vercel.app'>try the multi-oscillator synth</a>
