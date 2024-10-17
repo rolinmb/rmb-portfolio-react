@@ -18,7 +18,7 @@ function Experience() {
 		  </ul>
 		</li>
 	    <li class="job">
-		  <h2>Data Processor</h2>
+		  <h2>Contracted Data Processor</h2>
 		  <h3>Brown Taxes, LLC - Wauconda, IL</h3>
 		  <p>April 2023 - July 2023</p>
 		  <ul class="job-details">
