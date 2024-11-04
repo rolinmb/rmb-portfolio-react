@@ -10,11 +10,12 @@ function Experience() {
 		<li>
 		  <h2>Overnight Pricing Team Associate</h2>
 		  <h3>Mariano's - Lake Zurich, IL</h3>
-		  <p>Sept 2023 - present</p>
+		  <p>Sept 2023 - Nov 2024</p>
 		  <ul class="job-details">
 			<li>Distribute price tags and signs on a weekly basis</li>
 			<li>Assist management and vendors with display or signage requests</li>
 			<li>Use Zebra devices and internal software to conduct tag or sign printing and replacing</li>
+			<li>Help other departments/teams depending on workload/seasonality</li>
 		  </ul>
 		</li>
 	    <li class="job">

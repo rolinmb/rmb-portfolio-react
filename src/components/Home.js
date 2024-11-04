@@ -4,7 +4,7 @@ import React from 'react';
 function Home() {
   return (
     <div id='home-page' className='page-wrap'>
-      <h1>Greetings!</h1>
+      <h1>Hi</h1>
       <div className="home-content-wrap">
         <h2>Education</h2>
         <ul id='education-list'>
