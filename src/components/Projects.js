@@ -1,13 +1,76 @@
 import "./Projects.css";
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import option_chain_preview from './png/option_chain_preview.png';
 import complex_plots_preview from './png/complex_plots_preview.png';
 import pedalboard_gui_preview from './png/pedalboard_gui_preview.png';
 import png_tkinter_preview from './png/png_tkinter_preview.png';
 
+const TrippyCanvasProjects = () => {
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+	const canvas = canvasRef.current;
+	const ctx = canvas.getContext('2d');
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+
+	let frame = 0;
+
+	const render = () => {
+	  frame++;
+	  const { width, height } = canvas;
+
+	  // Set a solid white background
+	  ctx.fillStyle = 'white'; // Change background to white
+	  ctx.fillRect(0, 0, width, height);
+
+	  // Lissajous curve parameters
+	  const a = 1; // frequency in x direction
+	  const b = 7; // frequency in y direction
+	  const delta = (Math.PI / 2) * Math.sin(frame / 200); // phase shift that changes over time
+
+	  const scale = Math.min(width, height) / 3; // scaling factor for the curves
+	  const centerX = width / 2;
+	  const centerY = height / 2;
+
+	  ctx.beginPath();
+	  for (let t = 0; t <= Math.PI * 2; t += 0.01) {
+		const x = centerX + scale * Math.sin(a * t + delta);
+		const y = centerY + scale * Math.sin(b * t);
+		ctx.lineTo(x, y);
+	  }
+
+	  // Color based on frame
+	  ctx.strokeStyle = `hsl(${frame % 360}, 70%, 60%)`;
+	  ctx.lineWidth = 2;
+	  ctx.stroke();
+
+	  requestAnimationFrame(render);
+	};
+
+	render();
+
+	// Cleanup on unmount
+	return () => cancelAnimationFrame(render);
+  }, []);
+
+  return (
+	<canvas
+	  ref={canvasRef}
+	  style={{
+		position: 'absolute',
+		top: 0,
+		left: 0,
+		zIndex: -1,
+	  }}
+	/>
+  );
+}
+
 function Projects() {
   return (
     <div id='projects-page' className='page-wrap'>
+		<TrippyCanvasProjects />
       <h1>Projects (Most of which are on my <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb'>GitHub)</a></h1>
 	  <ul className="projects-list">
 	    <li>

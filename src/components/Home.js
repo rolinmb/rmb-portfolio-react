@@ -1,9 +1,73 @@
 import "./Home.css";
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
+
+const TrippyCanvasHome = () => {
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let frame = 0;
+
+    const render = () => {
+      frame++;
+      const { width, height } = canvas;
+
+      // Set a solid white background
+      ctx.fillStyle = 'white'; // Change background to white
+      ctx.fillRect(0, 0, width, height);
+
+      // Lissajous curve parameters
+      const a = 5; // frequency in x direction
+      const b = 3; // frequency in y direction
+      const delta = (Math.PI / 2) * Math.sin(frame / 200); // phase shift that changes over time
+
+      const scale = Math.min(width, height) / 3; // scaling factor for the curves
+      const centerX = width / 2;
+      const centerY = height / 2;
+
+      ctx.beginPath();
+      for (let t = 0; t <= Math.PI * 2; t += 0.01) {
+        const x = centerX + scale * Math.sin(a * t + delta);
+        const y = centerY + scale * Math.sin(b * t);
+        ctx.lineTo(x, y);
+      }
+
+      // Color based on frame
+      ctx.strokeStyle = `hsl(${frame % 360}, 70%, 60%)`;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      requestAnimationFrame(render);
+    };
+
+    render();
+
+    // Cleanup on unmount
+    return () => cancelAnimationFrame(render);
+  }, []);
+
+  return (
+    <canvas
+      ref={canvasRef}
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        zIndex: -1,
+      }}
+    />
+  );
+}
+
 
 function Home() {
   return (
     <div id='home-page' className='page-wrap'>
+      <TrippyCanvasHome />
       <h1>Hi</h1>
       <div className="home-content-wrap">
         <h2>Education</h2>
