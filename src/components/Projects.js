@@ -8,7 +8,7 @@ import png_tkinter_preview from './png/png_tkinter_preview.png';
 function Projects() {
   return (
     <div id='projects-page' className='page-wrap'>
-      <h1>Projects</h1>
+      <h1>Projects (Most of which are on my <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb'>GitHub)</a></h1>
 	  <ul className="projects-list">
 	    <li>
 		  <h2>Finance / Investing</h2>
@@ -198,8 +198,12 @@ function Projects() {
 			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/logical-nn'>repo here</a>
 			</li>
 			<li>
-			  <p>Matrix data structure + matrix math functions in Go</p>
-			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/go-matrix'>repo here</a>
+			  <p>Using the JavaScript WebGPU API to train a simple neural network on logic gate truth tables</p>
+			  &nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/webgpu-logical-nn'>repo here</a>
+			</li>
+			<li>
+			  <p>Implementing a Quantum Register concept with Qudit quantum logic units in Golang</p>
+				&nbsp;- <a target='_blank' rel='noopener noreferrer' href='https://github.com/rolinmb/go-qregister'>repo here</a>
 			</li>
 		  </ul>
 	    </li>
