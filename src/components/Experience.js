@@ -70,7 +70,17 @@ function Experience() {
       <h1>Work Experience / History</h1>
       <br />
 	  <ul class="jobs">
-		<li>
+		<li class="job">
+		  <h2>Contracted 2nd Shift Data Entry / Clerical</h2>
+		  <h3>JP Morgan Chase & Co</h3>
+		  <p>May 2025 - Present</p>
+		  <ul class="job-details">
+			<li>Work in a high security environment while adhering to client and company data privacy requirements</li>
+			<li>Learn and help improve various JPMC data processing systems</li>
+			<li>Consistently meet performance metrics in areas such as data entry accuracy and speed</li>
+		  </ul>
+		</li>
+		<li class="job">
 		  <h2>Overnight Pricing Team Associate</h2>
 		  <h3>Mariano's - Lake Zurich, IL</h3>
 		  <p>Sept 2023 - Nov 2024</p>
