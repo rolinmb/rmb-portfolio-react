@@ -72,7 +72,7 @@ function Experience() {
 	  <ul class="jobs">
 		<li class="job">
 		  <h2>Contracted 2nd Shift Data Entry / Clerical</h2>
-		  <h3>JP Morgan Chase & Co</h3>
+		  <h3>Apple One Employment (Contracted at JP Morgan Chase & Co)</h3>
 		  <p>May 2025 - Present</p>
 		  <ul class="job-details">
 			<li>Work in a high security environment while adhering to client and company data privacy requirements</li>
