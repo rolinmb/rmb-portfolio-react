@@ -8,7 +8,7 @@ function Footer() {
         <li><a href='https://github.com/rolinmb'>Rolin Blake on GitHub</a></li>
         <li><a href='https://www.linkedin.com/in/rolin-blake/'>Rolin Blake on LinkedIn</a></li>
       </ul>
-      <p>&copy; Rolin Blake 2024 | Hosted with Google Firebase | <a href='https://github.com/rolinmb/rmb-portfolio-react'>This GitHub Repo</a> | All Rights Reserved</p>
+      <p>&copy; Rolin Blake 2025 | Hosted with Google Firebase | <a href='https://github.com/rolinmb/rmb-portfolio-react'>This GitHub Repo</a> | All Rights Reserved</p>
     </footer>
   );
 }
